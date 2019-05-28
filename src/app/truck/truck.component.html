@@ -24,6 +24,12 @@
   </span>
   </h4>
   <div class="card-text bg-white p-1">{{item.description}}</div>
+      <div *ngFor="let sub_item of item.types"> 
+        {{sub_item.sub_item_id}} | 
+        {{sub_item.sub_type}} |
+        {{sub_item.price}} 
+        
+      </div>
   </div>
   </div>
   </div>

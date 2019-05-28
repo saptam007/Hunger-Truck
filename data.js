@@ -2,7 +2,13 @@
     return { 
         items: [
             { id: 1, name: "Biriyani", category: "Indian-North", 
-                description: "Authentic Bengali biriyani", price: 275 },
+                description: "Authentic Bengali biriyani", price: 275 ,types: [
+                    {   sub_item_id : 101,  sub_type : "Special", price: 350 },
+                     {  sub_item_id : 102,  sub_type : "Full",    price: 275 },
+                      {  sub_item_id : 103,  sub_type : "Half",    price: 180 }
+                    
+                ]
+            },
             { id: 2, name: "Noodles", category: "Chinese", 
                 description: "Chicken soupy noodles", price: 48.95 },
             { id: 3, name: "beef staek", category: "Continental", 
